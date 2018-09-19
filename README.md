@@ -1,1 +1,0 @@
-# minecolonies-schematics-test
