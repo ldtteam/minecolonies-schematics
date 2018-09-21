@@ -2,6 +2,14 @@
     "author": "LDT Team",
     "styles":
     [
-        "default-wooden"
+        "default-wooden",
+        "alternative-stone",
+        "alternative-wood",
+        "birch",
+        "darkoak",
+        "mesa",
+        "sandstone",
+        "stone",
+        "taiga"
     ]
 }
