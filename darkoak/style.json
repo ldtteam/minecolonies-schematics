@@ -1,0 +1,82 @@
+{
+    "name": "Tree House",
+    "description": "Want to build your city on one tree? Go for this! Made from dark oak wood.",
+    "joke": "256 blocks is not enough... :/",
+
+    "heads":
+    [
+        "buildings",
+        "decorations"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "barracks",
+            "barrackstower",
+            "builder",
+            "citizen",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "lumberjack",
+            "miner",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "fields",
+            "infrastructureroads",
+            "walls"
+        ],
+
+        "fields":
+        {
+            "files":
+            [
+                "simple"
+            ]
+        },
+        "infrastructureroads":
+        {
+            "files":
+            [
+                "simplecorner",
+                "simpleintersection",
+                "simplepath",
+                "simplestairs",
+                "simpletjunction"
+            ]
+        },
+        "walls":
+        {
+            "files":
+            [
+                "corner",
+                "gate",
+                "stairs",
+                "straight"
+            ]
+        }
+    }
+}

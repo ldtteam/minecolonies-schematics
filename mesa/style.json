@@ -1,0 +1,41 @@
+{
+    "name": "Mesa",
+    "description": "Made from hardened clay and dark oak wood.",
+    "joke": "I'm not the type of messy child!",
+
+    "heads":
+    [
+        "buildings"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "builder",
+            "citizen",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "lumberjack",
+            "miner",
+            "shepherd",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    }
+}

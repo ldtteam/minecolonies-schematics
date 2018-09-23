@@ -1,0 +1,31 @@
+{
+    "name": "Alternative Wooden",
+    "description": "Several alternative wooden building styles",
+    "base": "default-wooden",
+
+    "heads":
+    [
+        "buildings"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "citizen",
+            "shepherd"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    }
+}

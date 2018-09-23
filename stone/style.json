@@ -1,0 +1,57 @@
+{
+    "name": "Stone",
+    "description": "Made from stone, cobblestone, stone bricks, mossy variants, cobblestone stairs, cobblestone slabs, ...",
+    "joke": "I still have not finished that list in the description................",
+
+    "heads":
+    [
+        "buildings",
+        "decorations"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "builder",
+            "citizen",
+            "cook",
+            "farmer",
+            "fisherman",
+            "lumberjack",
+            "miner"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "walls"
+        ],
+
+        "walls":
+        {
+            "files":
+            [
+                "corner",
+                "gate",
+                "stairs",
+                "straight"
+            ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Alternative Stone",
+    "description": "Several alternative stone building styles",
+    "base": "stone",
+
+    "heads":
+    [
+        "buildings"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "citizen"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    }
+}

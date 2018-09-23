@@ -1,0 +1,74 @@
+{
+    "name": "Taiga",
+    "description": "Made from spruce wood and cobblestone",
+    "joke": "VIKINGSSSSSSSSSSSSSSSSSSSSSSS, hehe baited",
+
+    "heads":
+    [
+        "buildings",
+        "decorations"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "barracks",
+            "barrackstower",
+            "builder",
+            "citizen",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "lumberjack",
+            "miner",
+            "smeltery",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "infrastructureroads",
+            "walls"
+        ],
+
+        "infrastructureroads":
+        {
+            "files":
+            [
+                "poorcorner",
+                "poorintersection",
+                "poorpath"
+            ]
+        },
+        "walls":
+        {
+            "files":
+            [
+                "gate",
+                "palisadecorner",
+                "palisadegate",
+                "palisadestraight",
+                "straight"
+            ]
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Birch",
+    "description": "A style made from birch wood",
+    "joke": "Shining white against you!",
+
+    "heads":
+    [
+        "buildings",
+        "decorations"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "barracks",
+            "barrackstower",
+            "builder",
+            "citizen",
+            "cook",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "lumberjack",
+            "miner",
+            "shepherd",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "walls"
+        ],
+        
+        "walls":
+        {
+            "files":
+            [
+                "corner",
+                "gate",
+                "stairs",
+                "straight"
+            ]
+        }
+    }
+}
