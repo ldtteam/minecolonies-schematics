@@ -1,0 +1,187 @@
+{
+    "name": "Medieval oak",
+    "description": "The Medieval Style, using Oak wood primarly",
+	"default": true,
+	"file-type": ".nbt",
+
+    "heads":
+    [
+        "buildings",
+        "decorations"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "barracks",
+            "barrackstower",
+            "builder",
+            "citizen",
+            "composter",
+            "cook",
+            "cowboy",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "chickenherder",
+            "library",
+            "lumberjack",
+            "miner",
+            "shepherd",
+            "smeltery",
+            "swineherder",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+			"registry": "$files"
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "bridges",
+			"camps",
+            "miner",
+            "other",
+            "roads",
+            "torturedevices",
+            "wagons",
+            "walls",
+            "wells"
+        ],
+		"registry": "$types",
+		
+		"bridges":
+        {
+            "files":
+            [
+                "cobblestoneburgbridge",
+                "poorstonebridge"
+            ]
+			"registry": "$files"
+        },
+        "camps":
+        {
+            "files":
+            [
+                "supplycamp",
+                "supplyship"
+            ]
+			"registry": "$files"
+        },
+        "miner":
+        {
+            "files":
+            [
+                "mainshaft",
+                "x2left",
+                "x2right",
+                "x2top",
+                "x3leftright",
+                "x3topleft",
+                "x3topright",
+                "x4"
+            ]
+			"registry": "$files"
+        },
+        "other":
+        {
+            "files":
+            [
+                "fancyguardbooth",
+                "fancytowncenter",
+                "smallguardbooth",
+                "smallstable",
+                "towncenter",
+                "warencampment"
+            ]
+			"registry": "$files"
+        },
+        "roads":
+        {
+            "*":
+            [
+                "burg",
+                "city",
+                "noble",
+                "town"
+            ],
+            "files":
+            [
+                "*road",
+                "*roadcorner",
+                "*roadintersection",
+                "*roadslope",
+                "*roadtjunction"
+            ]
+			"registry": "$files"
+        },
+        "torturedevices":
+        {
+            "files":
+            [
+                "gallows",
+                "headsmanpost",
+                "hotcage",
+                "pillory",
+                "woodencage"
+            ]
+			"registry": "$files"
+        },
+        "wagons":
+        {
+            "files":
+            [
+                "roofedwagon",
+                "smallwagonwithlogs",
+				"smallwheatwagon",
+				"wagonwithlogs"
+            ]
+			"registry": "$files"
+        },
+        "walls":
+        {
+            "files":
+            [
+                "cobblecorner",
+                "cobblegate",
+                "cobblesegmentx1",
+                "cobblesegmentx2",
+				"cobblestairs",
+				"cobbletower",
+				"fancygate",
+				"fancyroundbarbacane",
+				"fancyroundcorner",
+				"fancyroundtower",
+				"fancysegmentx1",
+				"fancysegmentx2"
+            ]
+			"registry": "$files"
+        },
+		"wells":
+		{
+			"files":
+		¨	[
+				"bigwell",
+				"smallwell"
+			]
+			"registry": "$files"
+		}
+    }
+}
