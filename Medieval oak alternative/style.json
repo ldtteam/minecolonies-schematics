@@ -1,0 +1,39 @@
+{
+    "name": "Medieval oak alternative",
+    "description": "An Alternative Medieval Style containing some old buildings and variants",
+	"base": "Medieval oak",
+	"file-type": ".nbt",
+
+    "heads":
+    [
+        "buildings"
+    ],
+
+    "buildings":
+    {
+        "types":
+        [
+            "builder",
+            "citizen",
+            "cook",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "townhall",
+            "warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    }
+}
