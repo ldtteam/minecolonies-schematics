@@ -1,5 +1,6 @@
 {
     "name": "Alternative Wooden",
+    "shortname" : "Alt. Wooden",
     "description": "Several alternative wooden building styles",
     "base": "default-wooden",
 
