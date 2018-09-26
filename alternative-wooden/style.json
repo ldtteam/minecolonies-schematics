@@ -1,5 +1,6 @@
 {
     "name": "Alternative Wooden",
+    "shortname" : "Alt. Wooden",
     "description": "Several alternative wooden building styles",
     "base": "default-wooden",
 
@@ -20,11 +21,11 @@
         {
             "files":
             [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "$type 1",
+                "$type 2",
+                "$type 3",
+                "$type 4",
+                "$type 5"
             ]
         }
     }

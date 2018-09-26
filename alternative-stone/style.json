@@ -1,5 +1,6 @@
 {
     "name": "Alternative Stone",
+    "shortname" : "Alt. Stone",
     "description": "Several alternative stone building styles",
     "base": "stone",
 
@@ -19,11 +20,11 @@
         {
             "files":
             [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "$type 1",
+                "$type 2",
+                "$type 3",
+                "$type 4",
+                "$type 5"
             ]
         }
     }
