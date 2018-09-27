@@ -6,7 +6,8 @@
     "heads":
     [
         "buildings",
-        "decorations"
+        "decorations",
+        "infrastructure"
     ],
 
     "buildings":
@@ -46,7 +47,6 @@
         "types":
         [
             "fields",
-            "infrastructureroads",
             "walls"
         ],
 
@@ -57,17 +57,6 @@
                 "simple"
             ]
         },
-        "infrastructureroads":
-        {
-            "files":
-            [
-                "simplecorner",
-                "simpleintersection",
-                "simplepath",
-                "simplestairs",
-                "simpletjunction"
-            ]
-        },
         "walls":
         {
             "files":
@@ -76,6 +65,26 @@
                 "gate",
                 "stairs",
                 "straight"
+            ]
+        }
+    },
+
+    "infrastructure":
+    {
+        "types":
+        [
+            "simpleroads"
+        ],
+
+        "simpleroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "stairs",
+                "tjunction"
             ]
         }
     }

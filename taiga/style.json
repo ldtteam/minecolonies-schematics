@@ -6,7 +6,8 @@
     "heads":
     [
         "buildings",
-        "decorations"
+        "decorations",
+        "infrastructure"
     ],
 
     "buildings":
@@ -46,19 +47,9 @@
     {
         "types":
         [
-            "infrastructureroads",
             "walls"
         ],
 
-        "infrastructureroads":
-        {
-            "files":
-            [
-                "poorcorner",
-                "poorintersection",
-                "poorpath"
-            ]
-        },
         "walls":
         {
             "files":
@@ -68,6 +59,32 @@
                 "palisadegate",
                 "palisadestraight",
                 "straight"
+            ],
+            "names":
+            [
+                "Gate",
+                "Pal. Corner",
+                "Pal. Gate",
+                "Pal. Straight",
+                "Straight"
+            ]
+        }
+    },
+
+    "infrastructure":
+    {
+        "types":
+        [
+            "poorroads"
+        ],
+
+        "poorroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path"
             ]
         }
     }
