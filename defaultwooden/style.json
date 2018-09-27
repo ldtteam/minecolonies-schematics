@@ -11,6 +11,12 @@
         "infrastructure"
     ],
     "registry": "$heads",
+    "names":
+    [
+        "Buildings",
+        "Decorations",
+        "Infrastruct."
+    ],
 
     "buildings":
     {
