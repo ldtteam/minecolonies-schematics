@@ -5,7 +5,8 @@
     "heads":
     [
         "buildings",
-        "decorations"
+        "decorations",
+        "infrastructure"
     ],
 
     "buildings":
@@ -46,9 +47,33 @@
     {
         "types":
         [
+            "fields",
+            "other",
             "walls"
         ],
 
+        "fields":
+        {
+            "files":
+            [
+                "fancy",
+                "simple",
+                "simple2"
+            ],
+            "names":
+            [
+                "Fancy",
+                "Simple",
+                "Simple 2"
+            ]
+        },
+        "other":
+        {
+            "files":
+            [
+                "marketplace"
+            ]
+        },
         "walls":
         {
             "files":
@@ -57,6 +82,36 @@
                 "cornerleft",
                 "stairs",
                 "straight"
+            ]
+        }
+    },
+
+    "infrastructure":
+    {
+        "types":
+        [
+            "niceroads",
+            "poorroads"
+        ],
+
+        "niceroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "tjunction"
+            ]
+        },
+        "poorroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "tjunction"
             ]
         }
     }

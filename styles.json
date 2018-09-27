@@ -2,9 +2,9 @@
     "author": "LDT Team and voluntary contributors",
     "styles":
     [
-        "default-wooden",
-        "alternative-stone",
-        "alternative-wooden",
+        "defaultwooden",
+        "alternativestone",
+        "alternativewooden",
         "birch",
         "darkoak",
         "mesa",

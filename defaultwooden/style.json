@@ -1,0 +1,358 @@
+{
+    "name": "Wooden",
+    "description": "The default style made from oak wood",
+    "default": true,
+    "file-type": ".nbt",
+
+    "heads":
+    [
+        "buildings",
+        "decorations",
+        "infrastructure"
+    ],
+    "registry": "$heads",
+
+    "buildings":
+    {
+        "types":
+        [
+            "baker",
+            "barracks",
+            "barrackstower",
+            "builder",
+            "citizen",
+            "composter",
+            "cook",
+            "cowboy",
+            "deliveryman",
+            "farmer",
+            "fisherman",
+            "guardtower",
+            "chickenherder",
+            "library",
+            "lumberjack",
+            "miner",
+            "shepherd",
+            "smeltery",
+            "swineherder",
+            "townhall",
+            "warehouse"
+        ],
+        "registry": "$types",
+        "names":
+        [
+            "Baker",
+            "Barracks",
+            "Barr. Tower",
+            "Builder",
+            "Citizen",
+            "Composter",
+            "Cook",
+            "Cowboy",
+            "Deliveryman",
+            "Farmer",
+            "Fisherman",
+            "Guard Tower",
+            "Chicken Her.",
+            "Library",
+            "Lumberjack",
+            "Miner",
+            "Shepherd",
+            "Smeltery",
+            "Swineherd",
+            "Town Hall",
+            "Warehouse"
+        ],
+
+        "any":
+        {
+            "files":
+            [
+                "$type 1",
+                "$type 2",
+                "$type 3",
+                "$type 4",
+                "$type 5"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+
+    "decorations":
+    {
+        "types":
+        [
+            "camps",
+            "fields",
+            "miner",
+            "other",
+            "parks",
+            "walls"
+        ],
+        "registry": "$types",
+        "names":
+        [
+            "Camps",
+            "Fields",
+            "Miner",
+            "Other",
+            "Parks",
+            "Walls"
+        ],
+
+        "camps":
+        {
+            "files":
+            [
+                "supplycamp",
+                "supplyship"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Supply Camp",
+                "Supply Ship"
+            ]
+        },
+        "fields":
+        {
+            "files":
+            [
+                "fancy",
+                "simple"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Fancy",
+                "Simple"
+            ]
+        },
+        "miner":
+        {
+            "files":
+            [
+                "mainshaft",
+                "x2left",
+                "x2right",
+                "x2top",
+                "x3leftright",
+                "x3topleft",
+                "x3topright",
+                "x4"
+            ],
+            "registry": "$files"
+        },
+        "other":
+        {
+            "files":
+            [
+                "marketplace",
+                "pillar",
+                "simplefountain",
+                "townlibrary",
+                "well"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Marketplace",
+                "Pillar",
+                "Sim. Fountain",
+                "Town Library",
+                "Well"
+            ]
+        },
+        "parks":
+        {
+            "files":
+            [
+                "fancy",
+                "simple"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Fancy",
+                "Simple"
+            ]
+        },
+        "walls":
+        {
+            "files":
+            [
+                "corner",
+                "gate",
+                "stairs",
+                "straight"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Corner",
+                "Gate",
+                "Stairs",
+                "Straight"
+            ]
+        }
+    },
+
+    "infrastructure":
+    {
+        "types":
+        [
+            "bridges",
+            "fancyroads",
+            "lampposts",
+            "niceroads",
+            "points",
+            "poorroads",
+            "simpleroads"
+        ],
+        "registry": "$types",
+        "names":
+        [
+            "Bridges",
+            "Fancy Roads",
+            "Lamp Posts",
+            "Nice Roads",
+            "Points",
+            "Poor Roads",
+            "Simple Roads"
+        ],
+
+        "bridges":
+        {
+            "files":
+            [
+                "bridge",
+                "bridgespan",
+                "bridgestairs"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Bridge",
+                "Br. Span",
+                "Br. Stairs"
+            ]
+        },
+        "fancyroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "stairs",
+                "tjunction"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Corner",
+                "Intersection",
+                "Path",
+                "Stairs",
+                "TJunction"
+            ]
+        },
+        "lampposts":
+        {
+            "files":
+            [
+                "fancy",
+                "nice",
+                "poor"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Fancy",
+                "Nice",
+                "Poor"
+            ]
+        },
+        "niceroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "stairs",
+                "tjunction"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Corner",
+                "Intersection",
+                "Path",
+                "Stairs",
+                "TJunction"
+            ]
+        },
+        "points":
+        {
+            "files":
+            [
+                "patrolpoint",
+                "waypoint"
+            ],
+            "names":
+            [
+                "Patrolpoint",
+                "Waypoint"
+            ]
+        },
+        "poorroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "stairs",
+                "tjunction"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Corner",
+                "Intersection",
+                "Path",
+                "Stairs",
+                "TJunction"
+            ]
+        },
+        "simpleroads":
+        {
+            "files":
+            [
+                "corner",
+                "intersection",
+                "path",
+                "stairs",
+                "tjunction"
+            ],
+            "registry": "$files",
+            "names":
+            [
+                "Corner",
+                "Intersection",
+                "Path",
+                "Stairs",
+                "TJunction"
+            ]
+        }
+    }
+}
